@@ -7,8 +7,10 @@ import sys
 # Pega o diretório onde o main.py está localizado
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# O arquivo config.json está um nível acima de core_python/
+# O arquivo config.json pode estar um nível acima (local) ou no mesmo diretório (Discloud)
 CONFIG_PATH = os.path.join(BASE_DIR, '..', 'config.json')
+if not os.path.exists(CONFIG_PATH):
+    CONFIG_PATH = os.path.join(BASE_DIR, 'config.json')
 
 # Carregando as configurações do JSON
 with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
