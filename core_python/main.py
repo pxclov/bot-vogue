@@ -55,4 +55,5 @@ async def on_ready():
     print("\033[35m" + "-"*50 + "\033[0m\n")
 
 # Iniciando o bot
-bot.run(config['token'])
+token = os.environ.get('TOKEN') or config.get('token')
+bot.run(token)

@@ -2,9 +2,13 @@ import discord
 import json
 import os
 
-# Caminho para o config.json (ajustado para ser relativo à raiz do projeto bot-vogue)
-# Como este arquivo estará em core_python/utils/, precisamos subir dois níveis
+# Tenta encontrar o config.json em diferentes níveis dependendo do ambiente (Local vs Discloud)
 CONFIG_PATH = os.path.join(os.path.dirname(__file__), '../../config.json')
+if not os.path.exists(CONFIG_PATH):
+    CONFIG_PATH = os.path.join(os.path.dirname(__file__), '../config.json')
+if not os.path.exists(CONFIG_PATH):
+    CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config.json')
+
 
 with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
     config = json.load(f)
