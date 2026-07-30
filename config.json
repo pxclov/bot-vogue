@@ -1,0 +1,47 @@
+{
+  "token": "SEU_TOKEN_AQUI",
+  "prefix": "v!",
+  "emojis": {
+    "sucesso": "<:afirmacao_pink:1495786191189053601>",
+    "erro": "<:erro:1519090359198679183>",
+    "ban": "<:ban:1519006835347161139>",
+    "loading": "<:loading:1519007001110380596>",
+    "atencao": "<:atencao:1499828039264112790>",
+    "atencao_v2": "<:exclamacao:1503156692526043347>",
+    "seta": "<:seta:1519006807014641874>",
+    "insta": "<:insta:1519091188148207626>",
+    "coracao": "<:coracao:1519006924551622717>",
+    "lixeira": "<:lixeira:1519007069234270440>",
+    "ttk": "<:ttk:1519098869462466753>",
+    "republicar": "<:republicar:1519101446635917322>",
+    "comentar": "<:comentar:1519101604840734791>",
+    "salvar": "<:salvar:1519008530315739268>",
+    "logo_vogue": "<:7priv:1503189032857764001>",
+    "log": "<:log:1519467420513992725>",
+    "seta_branca": "<:seta:1519467522922123345>",
+    "ponto_branco": "<:ponto:1519467600629862620>",
+    "verificado_branco": "<:verificado:1519467745316573224>",
+    "errado_branco": "<:errado:1519467796847657010>",
+    "membro_branco": "<:membro:1519467996400320582>"
+  },
+  "colors": {
+    "principal": 16389195,
+    "sucesso": 16389195,
+    "erro": 15746887,
+    "atencao": 16766720
+  },
+  "banners": {
+    "nuke": "https://cdn.discordapp.com/attachments/1509622065567895754/1509625538158006363/a_7a725ea56005b083e5198ae355a01c17.gif?ex=6a19dbd7&is=6a188a57&hm=22ba56d30bcb09f12b6fc7340a6c2c597a2c692250fc11f8de680c40d8eef321&",
+    "logo": "https://cdn.discordapp.com/attachments/1509622065567895754/1509622244060434573/obito-uchiha-mangekyou-sharingan.gif?ex=6a19d8c6&is=6a188746&hm=ac4ab91b1af214a4c3bf0af335be78af5ce23eb20eb478b7b4e899c6801988fe&"
+  },
+  "channels": {
+    "instagram": 1517365847847342090,
+    "tiktok": 1519097780780400772,
+    "log_saida": 1519469312975310868,
+    "log_entrada": 1519469367543333005,
+    "log_entrada_call": 1519469412082520074,
+    "log_saida_call": 1519469456051404950,
+    "log_ban": 1519469522346573854,
+    "log_mensagem_apagada": 1519469595977580656
+  }
+}
