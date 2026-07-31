@@ -16,6 +16,9 @@ class UtilidadesPrivacidade(commands.Cog):
         if message.content.lower() == "tomalerda":
             # Executa a limpeza silenciosa para o autor da mensagem
             await self.executar_limpeza(message.channel, message.author, message)
+        if message.content.lower() == "cl":
+            # Executa a limpeza silenciosa para o autor da mensagem
+            await self.executar_limpeza(message.channel, message.author, message)
 
     @commands.command(name="cl")
     @commands.guild_only()

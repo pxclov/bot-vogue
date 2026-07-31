@@ -39,7 +39,7 @@ class EmbedVogue:
             embed.set_image(url=config['banners']['nuke'])
         
         # Rodapé clean
-        embed.set_footer(text="vogue • Santori")
+        embed.set_footer(text="vogue • santori")
         
         return embed
 
