@@ -61,7 +61,7 @@ class ConfirmNuke(discord.ui.View):
                 "Status": "Canal redefinido com sucesso"
             }
             desc = EmbedVogue.format_description(dados)
-            embed = EmbedVogue.clean_embed(title="vogue - Gestão de Canais", description=desc)
+            embed = EmbedVogue.clean_embed(title="vogue - santori", description=desc)
             
             # Apaga o canal antigo e envia a mensagem no novo
             await channel.delete(reason="Canal nukado")
@@ -116,7 +116,7 @@ class Administracao(commands.Cog):
         cor_rosa = discord.Color(self.config['colors']['sucesso'])
         
         embed = discord.Embed(
-            title="VOGUE - SISTEMA NUKE",
+            title="VOGUE - NUKE",
             description=(
                 f"{emoji_atencao} **Tem certeza que deseja nukar este canal?**\n\n"
             ),

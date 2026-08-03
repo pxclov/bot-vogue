@@ -3,6 +3,10 @@ from discord.ext import commands
 import json
 import os
 import sys
+from dotenv import load_dotenv
+
+# Carrega as variáveis de ambiente do arquivo .env
+load_dotenv()
 
 # Pega o diretório onde o main.py está localizado
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
